@@ -2,7 +2,7 @@ from flask import Flask,request
 from flask_script import Manager
 
 app = Flask(__name__)
-manager = Manger(app)
+manager = Manager(app)
 
 @app.route('/')
 def index():
