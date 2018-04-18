@@ -11,7 +11,7 @@ def index():
 
 @app.route('/user/<name>')
 def user(name):
-        return "<h1>Hello %s" % name
+    return "<h1>Hello %s" % name
 
 if __name__=="__name__":
     app.run(debug=True,host='0.0.0.0')
