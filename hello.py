@@ -13,5 +13,5 @@ def index():
 def user(name):
     return "<h1>Hello %s" % name
 
-if __name__=="__name__":
+if __name__=="__main__":
     app.run(debug=True,host='0.0.0.0')
