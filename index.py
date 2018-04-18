@@ -9,4 +9,5 @@ def index():
     return render_template('./tpl/index.html')
 
 if __name__ == "__main__":
-    manage.run()
+    #manage.run()
+    app.run(debug=True,host='0.0.0.0')
